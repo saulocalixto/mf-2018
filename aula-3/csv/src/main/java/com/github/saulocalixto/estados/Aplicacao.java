@@ -1,57 +1,37 @@
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ */
+
 package com.github.saulocalixto.estados;
 
-import java.io.BufferedReader;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
+import java.util.List;
 
+/**
+ *
+ * @author Saulo A. Calixto
+ *
+ */
 public class Aplicacao {
 
-	public static void main(String args[]) {
-		
+	/**
+	 *
+	 * Método principal da classe Aplicacao que apenas imprime os dados conseguidos através de um arquivo cujo caminho
+	 * é passado como argumento.
+	 *
+	 * @param args Argumento passado pelo usuário, contém o endereço do arquivo que será lido.
+	 *
+	 *  @throws IOException Caso o caminho passado no parâmetro não seja válido.
+	 */
+	public static void main(String args[]) throws IOException {
+
 		String caminho = args[0];
-		System.out.println(caminho);
-		BufferedReader bf = getBufferedReader(caminho);
-		ArrayList<String> estados = getTodosEstados(bf);
-		
-		for(String estado : estados){
-			System.out.println(estado);
-		}
+		Leitura leitura = new Leitura();
+		List<String> listaUniversidades = leitura.pegarDadosDeArquivo(caminho);
 
+		Universidades universidades = new Universidades();
+
+		universidades.imprimeQtdDeUniversidadesPorEstado(listaUniversidades);
 	}
-
-	private static ArrayList<String> getTodosEstados(final BufferedReader br) {
-
-        	ArrayList<String> estados = new ArrayList<>();
-        	try {
-            		String linha = br.readLine();
-            		while (linha != null) {
-                		estados.add(linha.replaceAll(" ", ""));
-                		linha = br.readLine();
-            		}
-        	} catch (Exception e) {
-            		return null;
-        	}
-
-        	return estados;
-    	}
-
-	private static BufferedReader getBufferedReader(final String urlString)
-            throws MalformedURLException, IOException {
-        	try {
-			URL oracle = new URL(urlString);
-        		InputStreamReader is = new InputStreamReader(oracle.openStream());
-        		return new BufferedReader(is);
-		} catch (MalformedURLException mf) {
-			System.out.println("Erro de leitura.");
-		} catch(IOException e) {
-			System.out.println("Erro de leitura.");
-		}
-    	}
-
 }
