@@ -12,10 +12,11 @@ import java.util.List;
 /***
  * @author Saulo A. Calixto
  */
-public class Universidades {
+public class UtilitarioUniversidades {
 
     private final int ESTADO_SIGLA = 9;
     private final int TAMANHO_SIGLA = 2;
+    private final int LINHA_POSSUI_SIGLA = 9;
 
     /**
      * Imprime a quantidade de universidades por estado.
@@ -25,22 +26,21 @@ public class Universidades {
      */
     public void imprimeQtdDeUniversidadesPorEstado(List<String> arquivo) {
 
+        System.out.println("Quantidade de universidades por estado:");
+
+        trataListaParaImpressao(arquivo).forEach(linha -> System.out.println(linha.toString()));
+    }
+
+    private List<QuantidadeDeUniversidadesPorEstados> trataListaParaImpressao(List<String> arquivo) {
 
         List<String[]> universidades = arquivo
                 .stream()
-                .filter(x -> x.split(";").length > 10)
+                .filter(x -> x.split(";").length > LINHA_POSSUI_SIGLA)
                 .map(linha -> linha.split(";"))
                 .collect(Collectors.toList());
 
 
-        trataListaParaImpressao(universidades);
-    }
-
-    private void trataListaParaImpressao(List<String[]> universidades) {
-
-        System.out.println("Universidades por estados:");
-
-        universidades
+        return universidades
                 .stream()
                 .filter(linha -> linha[ESTADO_SIGLA].length() == TAMANHO_SIGLA)
                 .map(linha -> new QuantidadeDeUniversidadesPorEstados(universidades
@@ -49,7 +49,7 @@ public class Universidades {
                                 qtd[ESTADO_SIGLA].equals(linha[ESTADO_SIGLA])).count(), linha[ESTADO_SIGLA]))
                 .distinct()
                 .sorted(Comparator.comparing(QuantidadeDeUniversidadesPorEstados::getQuantidade).reversed())
-                .forEach(linha -> System.out.println(linha.toString()));
+                .collect(Collectors.toList());
     }
 }
 

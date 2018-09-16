@@ -30,8 +30,8 @@ public class Aplicacao {
 		Leitura leitura = new Leitura();
 		List<String> listaUniversidades = leitura.pegarDadosDeArquivo(caminho);
 
-		Universidades universidades = new Universidades();
+		UtilitarioUniversidades utilitarioUniversidades = new UtilitarioUniversidades();
 
-		universidades.imprimeQtdDeUniversidadesPorEstado(listaUniversidades);
+		utilitarioUniversidades.imprimeQtdDeUniversidadesPorEstado(listaUniversidades);
 	}
 }

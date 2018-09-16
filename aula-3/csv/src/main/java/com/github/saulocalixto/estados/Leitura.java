@@ -32,7 +32,7 @@ public class Leitura {
     public List<String> pegarDadosDeArquivo(String caminhoArquivo) throws IOException {
 
         this.caminhoArquivo = caminhoArquivo;
-        this.bf = getBufferedReader();
+        this.bf = pegarLeitor();
 
         List<String> estados = new ArrayList<>();
         try {
@@ -48,7 +48,7 @@ public class Leitura {
         return estados;
     }
 
-    private BufferedReader getBufferedReader()
+    private BufferedReader pegarLeitor()
             throws IOException {
         try {
             URL oracle = new URL(caminhoArquivo);
