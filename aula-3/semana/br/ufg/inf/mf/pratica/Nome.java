@@ -16,12 +16,12 @@ import java.util.Date;
 */
 public class Nome {
 
-       /**
-        *
-        * Método principal da classe Nome que apenas imprime o dia da semana
+	/**
+	*
+	* Método principal da classe Nome que apenas imprime o dia da semana
 	* baseado na configuração da máquina do usuário.
-        *
-        */
+	*
+	*/
 	public static void main(String args[]) {
 		Locale linguaCorrente = Locale.getDefault();
 		Calendar calendario = Calendar.getInstance();
