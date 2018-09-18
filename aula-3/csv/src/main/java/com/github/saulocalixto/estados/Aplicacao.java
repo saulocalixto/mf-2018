@@ -15,6 +15,8 @@ import java.util.List;
  */
 public class Aplicacao {
 
+	private static final String CAMINHO_PADRAO = "http://repositorio.dados.gov.br/educacao/CADASTRO%20DAS%20IES_2011.csv";
+
 	/**
 	 *
 	 * Método principal da classe Aplicacao que apenas imprime os dados conseguidos através de um arquivo cujo caminho
@@ -26,7 +28,9 @@ public class Aplicacao {
 	 */
 	public static void main(String args[]) throws IOException {
 
-		String caminho = args[0];
+		String caminho = args.length > 0
+				? args[0]
+				: CAMINHO_PADRAO;
 		Leitura leitura = new Leitura();
 		List<String> listaUniversidades = leitura.pegarDadosDeArquivo(caminho);
 

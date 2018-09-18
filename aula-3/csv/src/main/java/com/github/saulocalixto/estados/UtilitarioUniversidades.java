@@ -17,6 +17,7 @@ public class UtilitarioUniversidades {
     private final int ESTADO_SIGLA = 9;
     private final int TAMANHO_SIGLA = 2;
     private final int LINHA_POSSUI_SIGLA = 9;
+    private final String SEPARADOR = ";";
 
     /**
      * Imprime a quantidade de universidades por estado.
@@ -35,10 +36,9 @@ public class UtilitarioUniversidades {
 
         List<String[]> universidades = arquivo
                 .stream()
-                .filter(x -> x.split(";").length > LINHA_POSSUI_SIGLA)
-                .map(linha -> linha.split(";"))
+                .filter(x -> x.split(SEPARADOR).length > LINHA_POSSUI_SIGLA)
+                .map(linha -> linha.split(SEPARADOR))
                 .collect(Collectors.toList());
-
 
         return universidades
                 .stream()

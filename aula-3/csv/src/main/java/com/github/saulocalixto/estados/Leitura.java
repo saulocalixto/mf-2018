@@ -6,6 +6,7 @@
 package com.github.saulocalixto.estados;
 
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -34,18 +35,18 @@ public class Leitura {
         this.caminhoArquivo = caminhoArquivo;
         this.bf = pegarLeitor();
 
-        List<String> estados = new ArrayList<>();
+        List<String> listaDasLinhasDoArquivo = new ArrayList<>();
         try {
             String linha = bf.readLine();
             while (linha != null) {
-                estados.add(linha);
+                listaDasLinhasDoArquivo.add(linha);
                 linha = bf.readLine();
             }
         } catch (Exception e) {
             throw new IOException();
         }
 
-        return estados;
+        return listaDasLinhasDoArquivo;
     }
 
     private BufferedReader pegarLeitor()
@@ -55,7 +56,7 @@ public class Leitura {
             InputStreamReader is = new InputStreamReader(oracle.openStream());
             return new BufferedReader(is);
         } catch(IOException e) {
-            throw new IOException();
+            throw new IOException("Caminho inválido.");
         }
     }
 }
