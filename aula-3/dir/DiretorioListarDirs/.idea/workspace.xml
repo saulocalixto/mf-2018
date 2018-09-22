@@ -2,19 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f74e13d-516e-4227-8409-b4b586c70c47" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/DiretorioListarArquivos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/src/main/java/com/github/saulocalixto/dir/Visitor.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/DiretorioListarArquivos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/DiretorioListarArquivos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/src/main/java/com/github/saulocalixto/dir/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/src/main/java/com/github/saulocalixto/dir/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/src/test/java/com/github/saulocalixto/dir/TesteDiretorioListaArquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/src/test/java/com/github/saulocalixto/dir/TesteDiretorioListaArquivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/target/site/checkstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/target/site/checkstyle.rss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/target/site/images/rss.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,19 +38,40 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="286" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="286" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +79,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
               <folding>
                 <element signature="e#0#713#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -68,6 +110,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -82,8 +125,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" />
       </list>
     </option>
   </component>
@@ -134,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,52 +194,19 @@
             </path>
             <path>
               <item name="DiretorioListarDirs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiretorioListarDirs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiretorioListarDirs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiretorioListarDirs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiretorioListarDirs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiretorioListarDirs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dir" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiretorioListarDirs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiretorioListarDirs" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiretorioListarDirs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiretorioListarDirs" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiretorioListarDirs" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537575030856" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DiretorioListarArquivos" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537660205942" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -337,16 +349,17 @@
       <option name="presentableId" value="Default" />
       <updated>1537223518178</updated>
       <workItem from="1537573739530" duration="1011000" />
+      <workItem from="1537656318811" duration="2592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1011000" />
+    <option name="totallyTimeSpent" value="3603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1530" height="873" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25672042" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -354,10 +367,9 @@
       <window_info id="Designer" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,7 +378,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32884097" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,6 +388,7 @@
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,22 +405,32 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="255">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
           <folding>
             <element signature="e#0#713#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>

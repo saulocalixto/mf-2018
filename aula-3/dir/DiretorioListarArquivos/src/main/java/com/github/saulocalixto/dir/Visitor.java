@@ -2,7 +2,6 @@
  * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
  */
-
 package com.github.saulocalixto.dir;
 
 import java.nio.file.FileVisitResult;
@@ -27,7 +26,10 @@ public class Visitor extends SimpleFileVisitor<Path> {
     @Override
     public final FileVisitResult visitFile(final Path file,
                                            final BasicFileAttributes attrs) {
-        System.out.println(file.toAbsolutePath());
+        if (file.toFile().isFile()) {
+            System.out.println(file.toFile().getPath());
+        }
+
         return FileVisitResult.CONTINUE;
     }
 }

@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ */
 package com.github.saulocalixto.dir;
 
 import java.io.IOException;
@@ -9,7 +13,7 @@ import static java.nio.file.Paths.get;
 /**
  * Created by Saulo A. Calixto on 17/09/18.
  */
-public final class DiretorioListarArquivos {
+public class DiretorioListarArquivos {
 
     /**
      * Construtor privado da classe.
@@ -34,9 +38,10 @@ public final class DiretorioListarArquivos {
         //contudo é bem mais limpo assim.
         String caminho = args.length > 0 ? args[0] : ".";
 
-        System.out.println("A partir de: " + caminho);
-
         Path caminhoInicial = get(caminho);
+
+        System.out.println("A partir de: " + caminhoInicial.toAbsolutePath());
+
         Files.walkFileTree(caminhoInicial, new Visitor());
     }
 }

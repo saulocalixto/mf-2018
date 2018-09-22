@@ -19,9 +19,9 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>DiretorioListarArquivos - Checkstyle report</title>
+    <title>DiretorioListarDirs - Checkstyle report</title>
     <link>${project.url}</link>
-    <description>DiretorioListarArquivos - Checkstyle report</description>
+    <description>DiretorioListarDirs - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2018</copyright>
     <item>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#com.github.saulocalixto.dir.package-info.java">com/github/saulocalixto/dir/package-info.java</a>
+                  <a href="${project.url}/checkstyle.html#com.github.saulocalixto.dir.Visitor.java">com/github/saulocalixto/dir/Visitor.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#com.github.saulocalixto.dir.DiretorioListarArquivos.java">com/github/saulocalixto/dir/DiretorioListarArquivos.java</a>
+                  <a href="${project.url}/checkstyle.html#com.github.saulocalixto.dir.DiretorioListarDirs.java">com/github/saulocalixto/dir/DiretorioListarDirs.java</a>
                 </td>
                 <td>
                   0

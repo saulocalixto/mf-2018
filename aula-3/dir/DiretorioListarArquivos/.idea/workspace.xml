@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b8e003-2640-44c0-8357-98ac8858e85f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TesteDiretorioListaArquivos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DiretorioListarDirs/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/DiretorioListarArquivos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DiretorioListarArquivos/src/main/java/com/github/saulocalixto/dir/Visitor.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiretorioListarArquivos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DiretorioListarArquivos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TesteDiretorioListaArquivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TesteDiretorioListaArquivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/rss.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DiretorioListarDirs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarDirs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/Visitor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,31 +39,36 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="1454" />
+          <entry key="java" value="2158" />
+          <entry key="xml" value="213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1454" />
+          <entry key="JAVA" value="2158" />
           <entry key="PLAIN_TEXT" value="22" />
+          <entry key="XML" value="213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="2" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -66,15 +77,20 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="440" column="67" lean-forward="true" selection-start-line="440" selection-start-column="67" selection-end-line="440" selection-end-column="67" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="225">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="37" selection-end-column="41" />
               <folding>
+                <element signature="e#0#1322#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -84,38 +100,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TesteDiretorioListaArquivos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="15">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
+                <element signature="e#0#1576#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.0-M1/junit-platform-commons-1.3.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="793" selection-start-line="793" selection-end-line="793" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="487" selection-start-line="487" selection-end-line="487" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="345">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding>
-                <element signature="e#0#998#0" expanded="true" />
+                <element signature="e#0#1073#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
             </state>
           </provider>
         </entry>
@@ -138,6 +177,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Teste</find>
+      <find>mockito</find>
+      <find>exemplo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,11 +188,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/Teste.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TesteDiretorioListaArquivos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" />
       </list>
     </option>
   </component>
@@ -160,6 +202,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="70" />
@@ -189,27 +238,6 @@
               <item name="DiretorioListarArquivos" type="b2602c69:ProjectViewProjectNode" />
               <item name="DiretorioListarArquivos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiretorioListarArquivos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiretorioListarArquivos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiretorioListarArquivos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiretorioListarArquivos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dir" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiretorioListarArquivos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiretorioListarArquivos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -231,15 +259,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537584421977" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537660205791" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DiretorioListarDirs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -258,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TesteDiretorioListaArquivos">
+  <component name="RunManager" selected="Application.DiretorioListarArquivos">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -322,6 +350,40 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.github.saulocalixto.dir" />
       <option name="MAIN_CLASS_NAME" value="com.github.saulocalixto.dir.TesteDiretorioListaArquivos" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteDiretorioListaArquivos.testaListarArquivos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DiretorioListarArquivos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.saulocalixto.dir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.saulocalixto.dir" />
+      <option name="MAIN_CLASS_NAME" value="com.github.saulocalixto.dir.TesteDiretorioListaArquivos" />
+      <option name="METHOD_NAME" value="testaListarArquivos" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteDiretorioListaArquivos.testaMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DiretorioListarArquivos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.saulocalixto.dir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.saulocalixto.dir" />
+      <option name="MAIN_CLASS_NAME" value="com.github.saulocalixto.dir.TesteDiretorioListaArquivos" />
+      <option name="METHOD_NAME" value="testaMain" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -405,12 +467,16 @@
       <item itemvalue="Application.DiretorioListarArquivos" />
       <item itemvalue="JUnit.TesteDiretorioListaArquivos.testarParse" />
       <item itemvalue="JUnit.TesteDiretorioListaArquivos" />
+      <item itemvalue="JUnit.TesteDiretorioListaArquivos.testaListarArquivos" />
+      <item itemvalue="JUnit.TesteDiretorioListaArquivos.testaMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TesteDiretorioListaArquivos" />
-        <item itemvalue="JUnit.TesteDiretorioListaArquivos.testarParse" />
         <item itemvalue="Application.DiretorioListarArquivos" />
+        <item itemvalue="JUnit.TesteDiretorioListaArquivos" />
+        <item itemvalue="JUnit.TesteDiretorioListaArquivos.testaListarArquivos" />
+        <item itemvalue="JUnit.TesteDiretorioListaArquivos.testaMain" />
+        <item itemvalue="JUnit.TesteDiretorioListaArquivos.testarParse" />
       </list>
     </recent_temporary>
   </component>
@@ -425,49 +491,49 @@
       <option name="presentableId" value="Default" />
       <updated>1537229546809</updated>
       <workItem from="1537575075015" duration="5669000" />
+      <workItem from="1537610399260" duration="11725000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TesteDiretorioListaArquivos_testarParse - 2018.09.21 at 23h 25m 18s.xml">
-      <configuration name="TesteDiretorioListaArquivos.testarParse" configurationId="JUnit" />
+    <history-entry file="TesteDiretorioListaArquivos_testaListarArquivos - 2018.09.22 at 14h 24m 15s.xml">
+      <configuration name="TesteDiretorioListaArquivos.testaListarArquivos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 25m 47s.xml">
+    <history-entry file="TesteDiretorioListaArquivos - 2018.09.22 at 14h 24m 32s.xml">
       <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 29m 09s.xml">
+    <history-entry file="TesteDiretorioListaArquivos - 2018.09.22 at 14h 25m 01s.xml">
       <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 29m 26s.xml">
+    <history-entry file="TesteDiretorioListaArquivos_testaListarArquivos - 2018.09.22 at 14h 25m 53s.xml">
+      <configuration name="TesteDiretorioListaArquivos.testaListarArquivos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDiretorioListaArquivos - 2018.09.22 at 14h 26m 01s.xml">
       <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 31m 03s.xml">
+    <history-entry file="TesteDiretorioListaArquivos - 2018.09.22 at 14h 26m 48s.xml">
       <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 31m 25s.xml">
+    <history-entry file="TesteDiretorioListaArquivos - 2018.09.22 at 14h 27m 08s.xml">
       <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 32m 04s.xml">
+    <history-entry file="TesteDiretorioListaArquivos - 2018.09.22 at 19h 39m 10s.xml">
       <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 33m 07s.xml">
+    <history-entry file="TesteDiretorioListaArquivos - 2018.09.22 at 19h 39m 44s.xml">
       <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 33m 58s.xml">
-      <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteDiretorioListaArquivos - 2018.09.21 at 23h 35m 33s.xml">
+    <history-entry file="TesteDiretorioListaArquivos - 2018.09.22 at 19h 44m 40s.xml">
       <configuration name="TesteDiretorioListaArquivos" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5669000" />
+    <option name="totallyTimeSpent" value="17394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1530" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25672042" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
@@ -475,11 +541,10 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -487,7 +552,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32884097" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -497,6 +562,7 @@
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,37 +576,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.0-M1/junit-platform-commons-1.3.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="793" selection-start-line="793" selection-end-line="793" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#998#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="194">
+          <caret line="440" column="67" lean-forward="true" selection-start-line="440" selection-start-column="67" selection-end-line="440" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -549,12 +609,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TesteDiretorioListaArquivos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="15">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
+            <element signature="e#0#1576#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarArquivos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="37" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#1322#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#1073#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
