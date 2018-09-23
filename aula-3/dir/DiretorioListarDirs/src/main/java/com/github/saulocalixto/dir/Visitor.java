@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
+import java.nio.file.attribute.BasicFileAttributes;
 
 /**
  * Created by Saulo A. Calixto on 17/09/18.
@@ -25,13 +26,12 @@ public class Visitor extends SimpleFileVisitor<Path> {
      * @throws IOException Caso o caminho seja inválido.
      */
     @Override
-    public final FileVisitResult postVisitDirectory(
-            final Path path, final IOException e) throws IOException {
-
-        if (path.toFile().isDirectory()) {
-            System.out.println("Pasta :" + path.toFile().getPath());
+    public final FileVisitResult visitFile(final Path file,
+                                           final BasicFileAttributes attrs) {
+        if (file.toFile().isDirectory()) {
+            System.out.println(file.toFile().getPath());
         }
 
-        return super.postVisitDirectory(path, e);
+        return FileVisitResult.CONTINUE;
     }
 }

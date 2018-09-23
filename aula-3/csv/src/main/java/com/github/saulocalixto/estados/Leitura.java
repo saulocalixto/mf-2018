@@ -6,7 +6,6 @@
 package com.github.saulocalixto.estados;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -20,19 +19,32 @@ import java.util.List;
  */
 public class Leitura {
 
+    /**
+     * Representa o caminho do arquivo.
+     */
     private String caminhoArquivo;
+
+    /**
+     * Representa instância da classe
+     * BufferedReader, usada para ler
+     * o arquivo.
+     */
     private BufferedReader bf;
 
 
     /**
-     * Com o caminho do arquivo ele o pega e faz a leitura do arquivo, devolvendo seus dados.
-     * @param caminhoArquivo O caminho onde se encontra o arquivo.
-     * @return Retorna uma lista com os dados das universidades encontradas no arquivo.
-     * @throws IOException Exceção disparada quando há algum erro de leitura.
+     * Com o caminho do arquivo ele o pega e
+     * faz a leitura do arquivo, devolvendo seus dados.
+     * @param caminho O caminho onde se encontra o arquivo.
+     * @return Retorna uma lista com os dados das universidades
+     * encontradas no arquivo.
+     * @throws IOException Exceção disparada quando
+     * há algum erro de leitura.
      */
-    public List<String> pegarDadosDeArquivo(String caminhoArquivo) throws IOException {
+    public final List<String> pegarDadosDeArquivo(final String caminho)
+            throws IOException {
 
-        this.caminhoArquivo = caminhoArquivo;
+        this.caminhoArquivo = caminho;
         this.bf = pegarLeitor();
 
         List<String> listaDasLinhasDoArquivo = new ArrayList<>();
@@ -49,13 +61,18 @@ public class Leitura {
         return listaDasLinhasDoArquivo;
     }
 
+    /**
+     * Retorna instância do leitor do arquivo.
+     * @throws IOException Se houver exceção ao ler o arquivo.
+     * @return Leitor de arquivos.
+     */
     private BufferedReader pegarLeitor()
             throws IOException {
         try {
             URL oracle = new URL(caminhoArquivo);
             InputStreamReader is = new InputStreamReader(oracle.openStream());
             return new BufferedReader(is);
-        } catch(IOException e) {
+        } catch (IOException e) {
             throw new IOException("Caminho inválido.");
         }
     }

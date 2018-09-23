@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="6.18">
-<file name="/home/saulocalixto/Google Drive/Eng. Software/6° Período/Métodos e Ferramentas de Software/mf-2018/aula-3/dir/DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/Visitor.java">
-</file>
-<file name="/home/saulocalixto/Google Drive/Eng. Software/6° Período/Métodos e Ferramentas de Software/mf-2018/aula-3/dir/DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java">
-<error line="35" column="42" severity="error" message="Evite condicionais inline." source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
-</file>
-</checkstyle>

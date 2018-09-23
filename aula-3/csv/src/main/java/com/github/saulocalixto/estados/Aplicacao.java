@@ -13,29 +13,48 @@ import java.util.List;
  * @author Saulo A. Calixto
  *
  */
-public class Aplicacao {
+public final class Aplicacao {
 
-	private static final String CAMINHO_PADRAO = "http://repositorio.dados.gov.br/educacao/CADASTRO%20DAS%20IES_2011.csv";
+	/**
+	 * Caminho padrão para o arquivo.
+	 * Um bom nome de variável dispensa comentário.
+	 */
+	private static final String CAMINHO_PADRAO =
+			"http://repositorio.dados.gov.br/educacao/"
+					+ "CADASTRO%20DAS%20IES_2011.csv";
+
+	/**
+	 * Para agradar o checkstyle.
+	 */
+	private Aplicacao() {
+
+	}
 
 	/**
 	 *
-	 * Método principal da classe Aplicacao que apenas imprime os dados conseguidos através de um arquivo cujo caminho
+	 * Método principal da classe Aplicacao que apenas imprime
+	 * os dados onseguidos através de um arquivo cujo caminho
 	 * é passado como argumento.
 	 *
-	 * @param args Argumento passado pelo usuário, contém o endereço do arquivo que será lido.
+	 * @param args Argumento passado pelo usuário,
+	 *            contém o endereço do arquivo que será lido.
 	 *
-	 *  @throws IOException Caso o caminho passado no parâmetro não seja válido.
+	 *  @throws IOException Caso o caminho passado no
+	 *  parâmetro não seja válido.
 	 */
-	public static void main(String args[]) throws IOException {
+	public static void main(final String args[]) throws IOException {
 
 		String caminho = args.length > 0
 				? args[0]
 				: CAMINHO_PADRAO;
 		Leitura leitura = new Leitura();
-		List<String> listaUniversidades = leitura.pegarDadosDeArquivo(caminho);
+		List<String> dados =
+				leitura.pegarDadosDeArquivo(caminho);
 
-		UtilitarioUniversidades utilitarioUniversidades = new UtilitarioUniversidades();
+		UtilitarioUniversidades utilitarioUniversidades =
+				new UtilitarioUniversidades();
 
-		utilitarioUniversidades.imprimeQtdDeUniversidadesPorEstado(listaUniversidades);
+		utilitarioUniversidades
+				.imprimeUniversidadesPorEstado(dados);
 	}
 }

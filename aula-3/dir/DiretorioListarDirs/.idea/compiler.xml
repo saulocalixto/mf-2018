@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DiretorioListarDirs" target="1.5" />
+      <module name="DiretorioListarDirs" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
