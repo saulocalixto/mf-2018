@@ -10,10 +10,34 @@ import java.nio.file.Path;
 
 import static java.nio.file.Paths.get;
 
-public class ContaLinhas {
-    public static void main(String[] args) throws IOException {
-        String sufixo = args.length > 0 ? args[0] : "*";
-        String caminho = args.length > 1 ? args[1] : ".";
+/**
+ * Created by Saulo A. Calixto on 17/09/18.
+ */
+public final class ContaLinhas {
+
+    /**
+     * Construtor padrão privado.
+     */
+    private ContaLinhas() {
+
+    }
+
+    /**
+     * Recebe dois argumentos, um sufixo
+     * e um caminho. Com isso ele pega todos
+     * os arquivos com esse sufixo e conta
+     *  total de linhas nesses arquivos.
+     * @param args Argumentos passados.
+     * @throws IOException Se ocorrer erro ao ler aquivo.
+     */
+    public static void main(final String[] args)
+            throws IOException {
+        String sufixo = args.length > 0
+                ? args[0]
+                : "*";
+        String caminho = args.length > 1
+                ? args[1]
+                : ".";
 
         Path caminhoInicial = get(caminho);
 
@@ -23,6 +47,7 @@ public class ContaLinhas {
 
         Files.walkFileTree(caminhoInicial, visitor);
 
-        System.out.println("Total de linhas: " + visitor.getContador());
+        System.out.println("Total de linhas: "
+                + visitor.getContador());
     }
 }

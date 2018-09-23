@@ -2,39 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f74e13d-516e-4227-8409-b4b586c70c47" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../csv/src/test/java/com/github/saulocalixto/estados/TestaUtilitario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TestaDiretorioListaDirs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../csv/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../csv/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../csv/src/main/java/com/github/saulocalixto/estados/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../csv/src/main/java/com/github/saulocalixto/estados/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../csv/src/main/java/com/github/saulocalixto/estados/Leitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../csv/src/main/java/com/github/saulocalixto/estados/Leitura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../csv/src/main/java/com/github/saulocalixto/estados/QuantidadeDeUniversidadesPorEstados.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../csv/src/main/java/com/github/saulocalixto/estados/QuantidadeDeUniversidadesPorEstados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../csv/src/main/java/com/github/saulocalixto/estados/UtilitarioUniversidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../csv/src/main/java/com/github/saulocalixto/estados/UtilitarioUniversidades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiretorioListarArquivos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiretorioListarArquivos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codigo/src/main/java/com/github/saulocalixto/codigo/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../codigo/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codigo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../codigo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codigo/codigo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codigo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../codigo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codigo/src/main/java/com/github/saulocalixto/codigo/ContaLinhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../codigo/src/main/java/com/github/saulocalixto/codigo/ContaLinhas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codigo/src/main/java/com/github/saulocalixto/codigo/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../codigo/src/main/java/com/github/saulocalixto/codigo/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiretorioListarDirs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DiretorioListarDirs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/rss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TestaDiretorioListaDirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TestaDiretorioListaDirs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,22 +25,22 @@
     <session id="1860136623">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="341" />
+          <entry key="java" value="387" />
           <entry key="xml" value="157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="341" />
+          <entry key="JAVA" value="387" />
           <entry key="XML" value="157" />
         </counts>
       </usages-collector>
@@ -90,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="365">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TestaDiretorioListaDirs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -119,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="443" column="40" lean-forward="true" selection-end-line="710" selection-end-column="10" />
+            <state relative-caret-position="6645">
+              <caret line="443" column="40" selection-end-line="710" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -140,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,8 +148,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TestaDiretorioListaDirs.java" />
       </list>
     </option>
@@ -227,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,13 +260,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537673357095" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../csv" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537729201025" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -344,8 +318,6 @@
     <configuration name="DiretorioListarDirs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.saulocalixto.dir.DiretorioListarDirs" />
       <module name="DiretorioListarDirs" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/./" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.github.saulocalixto.dir.*" />
@@ -476,7 +448,9 @@
       <updated>1537223518178</updated>
       <workItem from="1537573739530" duration="1011000" />
       <workItem from="1537656318811" duration="6838000" />
-      <workItem from="1537699457001" duration="5557000" />
+      <workItem from="1537699457001" duration="5906000" />
+      <workItem from="1537721447745" duration="274000" />
+      <workItem from="1537728883074" duration="318000" />
     </task>
     <servers />
   </component>
@@ -499,15 +473,24 @@
     <history-entry file="TestaDiretorioListaDirs - 2018.09.22 at 22h 47m 46s.xml">
       <configuration name="TestaDiretorioListaDirs" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestaDiretorioListaDirs_testaListarArquivos - 2018.09.23 at 15h 59m 27s.xml">
+      <configuration name="TestaDiretorioListaDirs.testaListarArquivos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaDiretorioListaDirs - 2018.09.23 at 15h 59m 49s.xml">
+      <configuration name="TestaDiretorioListaDirs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaDiretorioListaDirs - 2018.09.23 at 15h 59m 50s.xml">
+      <configuration name="TestaDiretorioListaDirs" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13406000" />
+    <option name="totallyTimeSpent" value="14347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1530" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26010782" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752022" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -517,8 +500,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4334239" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39945653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -560,6 +543,13 @@
     <entry file="file://$PROJECT_DIR$/DiretorioListarDirs.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6645">
+          <caret line="443" column="40" selection-end-line="710" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -570,17 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="443" column="40" lean-forward="true" selection-end-line="710" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="365">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -589,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="90">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -599,11 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/saulocalixto/dir/TestaDiretorioListaDirs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>

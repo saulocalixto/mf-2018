@@ -5,10 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.io.IOException;
-import java.nio.file.FileVisitResult;
-import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.attribute.BasicFileAttributeView;
 
 import static java.nio.file.Paths.get;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -31,9 +28,7 @@ public class TestaDiretorioListaDirs {
 
         Mockito.doCallRealMethod().when(visitor).postVisitDirectory(path, new IOException());
 
-        assertEquals(visitor.visitFile(path, Files.getFileAttributeView(path,
-                BasicFileAttributeView.class)
-                .readAttributes()), FileVisitResult.CONTINUE);
+        assertEquals(visitor.postVisitDirectory(path, new IOException()), null);
     }
 
     @Test
