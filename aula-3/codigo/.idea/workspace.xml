@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78a44c0a-d6e2-49da-b28f-098f75a262d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codigo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/ContaLinhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/ContaLinhas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dir/DiretorioListarDirs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dir/DiretorioListarDirs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dir/DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dir/DiretorioListarDirs/src/main/java/com/github/saulocalixto/dir/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dir/DiretorioListarDirs/src/test/java/com/github/saulocalixto/dir/TestaDiretorioListaDirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dir/DiretorioListarDirs/src/test/java/com/github/saulocalixto/dir/TestaDiretorioListaDirs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,13 +70,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1418" />
+          <entry key="java" value="1561" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1418" />
+          <entry key="JAVA" value="1561" />
           <entry key="XML" value="15" />
         </counts>
       </usages-collector>
@@ -112,13 +105,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="346">
+              <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="322">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/ContaLinhas.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/package-info.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/Visitor.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/Visitor.java" />
       </list>
     </option>
   </component>
@@ -218,6 +213,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="70" />
@@ -301,7 +303,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537727439990" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537730009499" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dir/DiretorioListarDirs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -322,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestaContaLinhas.testaVisitFile">
+  <component name="RunManager" selected="JUnit.TestaContaLinhas">
     <configuration name="ContaLinhas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.saulocalixto.codigo.ContaLinhas" />
       <module name="codigo" />
@@ -391,10 +393,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestaContaLinhas.testaVisitFile" />
         <item itemvalue="JUnit.TestaContaLinhas" />
         <item itemvalue="Application.ContaLinhas" />
         <item itemvalue="JUnit.TestaContaLinhas.testaVisitGetContador" />
+        <item itemvalue="JUnit.TestaContaLinhas.testaVisitFile" />
       </list>
     </recent_temporary>
   </component>
@@ -410,44 +412,44 @@
       <updated>1537573875193</updated>
       <workItem from="1537573879300" duration="6610000" />
       <workItem from="1537712938504" duration="8270000" />
-      <workItem from="1537728730051" duration="470000" />
+      <workItem from="1537728730051" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestaContaLinhas - 2018.09.23 at 14h 44m 34s.xml">
-      <configuration name="TestaContaLinhas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaContaLinhas_testaVisitGetContador - 2018.09.23 at 14h 44m 44s.xml">
-      <configuration name="TestaContaLinhas.testaVisitGetContador" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaContaLinhas - 2018.09.23 at 14h 46m 09s.xml">
-      <configuration name="TestaContaLinhas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaContaLinhas - 2018.09.23 at 15h 25m 34s.xml">
-      <configuration name="TestaContaLinhas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaContaLinhas - 2018.09.23 at 15h 25m 48s.xml">
-      <configuration name="TestaContaLinhas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaContaLinhas - 2018.09.23 at 15h 26m 46s.xml">
-      <configuration name="TestaContaLinhas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaContaLinhas - 2018.09.23 at 15h 27m 04s.xml">
-      <configuration name="TestaContaLinhas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 15h 27m 56s.xml">
-      <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 15h 28m 59s.xml">
-      <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 15h 30m 43s.xml">
       <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestaContaLinhas - 2018.09.23 at 16h 01m 40s.xml">
+      <configuration name="TestaContaLinhas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 16h 01m 57s.xml">
+      <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 16h 02m 14s.xml">
+      <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaContaLinhas_testaVisitGetContador - 2018.09.23 at 16h 02m 31s.xml">
+      <configuration name="TestaContaLinhas.testaVisitGetContador" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 16h 03m 17s.xml">
+      <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 16h 04m 05s.xml">
+      <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 16h 05m 02s.xml">
+      <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaContaLinhas_testaVisitFile - 2018.09.23 at 16h 10m 10s.xml">
+      <configuration name="TestaContaLinhas.testaVisitFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaContaLinhas_testaVisitGetContador - 2018.09.23 at 16h 10m 36s.xml">
+      <configuration name="TestaContaLinhas.testaVisitGetContador" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15350000" />
+    <option name="totallyTimeSpent" value="15998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +464,7 @@
     <frame x="70" y="27" width="1530" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25673854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25673854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -471,7 +473,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32880434" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32880434" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3980978" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,15 +505,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/Visitor.java</url>
-          <line>70</line>
+          <line>75</line>
           <properties />
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -529,16 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -585,10 +571,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="322">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/codigo/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>

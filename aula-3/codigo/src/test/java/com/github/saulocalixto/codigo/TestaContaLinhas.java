@@ -2,8 +2,10 @@ package com.github.saulocalixto.codigo;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.mockito.Mockito;
 
+import java.io.IOException;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -39,20 +41,8 @@ public class TestaContaLinhas {
     }
 
     @Test
-    public void testaVisitFile() throws Exception {
-        visitor = mock(Visitor.class);
-        visitor.setSufixo(".java");
+    public void testaMainComArgs() throws IOException {
 
-        doNothing().when(visitor.visitFile(path, Files.getFileAttributeView(path,
-                BasicFileAttributeView.class)
-                .readAttributes()));
-
-        when(visitor.visitFile(path, Files.getFileAttributeView(path,
-                BasicFileAttributeView.class)
-                .readAttributes())).thenReturn(FileVisitResult.CONTINUE);
-        FileVisitResult resultado = visitor.visitFile(path, Files.getFileAttributeView(path,
-                BasicFileAttributeView.class)
-                .readAttributes());
-        assertEquals(FileVisitResult.CONTINUE, resultado);
+        ContaLinhas.main(new String[]{"/home"});
     }
 }

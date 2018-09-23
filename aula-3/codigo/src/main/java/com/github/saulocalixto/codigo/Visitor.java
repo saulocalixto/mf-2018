@@ -35,7 +35,12 @@ public class Visitor extends SimpleFileVisitor<Path> {
      * @param sufixoNovo Sufixo do arquivo.
      */
     public void setSufixo(final String sufixoNovo) {
-        this.sufixo = sufixoNovo;
+        if(sufixoNovo != null) {
+            this.sufixo = sufixoNovo;
+        } else {
+            this.sufixo = "*";
+        }
+
     }
 
     /**
