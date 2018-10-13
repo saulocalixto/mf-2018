@@ -4,7 +4,6 @@ import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -13,7 +12,7 @@ import java.util.zip.ZipInputStream;
  * Created by aluno on 01/10/18.
  */
 public class CarregaArquivo {
-    private ZipEntry arquivoCsvObtido;
+
     private final String DELIMITADOR = ";";
     private final int CODIGO_ESTABELECIMENTO = 0;
     private final int RAZAO_SOCIAL = 5;
@@ -27,41 +26,43 @@ public class CarregaArquivo {
      */
     public List<Estabelecimento> pegarLeitor(String caminhoArquivo)
             throws IOException {
-        try {
-            URL url = new URL(caminhoArquivo);
-            ZipInputStream is = new ZipInputStream(url.openConnection().getInputStream());
+        try(ZipInputStream is = new ZipInputStream(new URL(caminhoArquivo).openConnection().getInputStream())) {
 
             List<Estabelecimento> lista = new ArrayList();
+            ZipEntry arquivoCsvObtido;
 
-        while((arquivoCsvObtido = is.getNextEntry()) != null){
+            while((arquivoCsvObtido = is.getNextEntry()) != null) {
 
-            String fileName = arquivoCsvObtido.getName();
+                String fileName = arquivoCsvObtido.getName();
 
-            if(fileName.startsWith("tbEstabelecimento")) {
+                if(fileName.startsWith("tbEstabelecimento")) {
 
-                InputStreamReader reader = new InputStreamReader(is);
-                BufferedReader bufferReader = new BufferedReader(reader);
-                bufferReader.readLine();
-                String linha;
+                    InputStreamReader reader = new InputStreamReader(is);
 
-                while ((linha = bufferReader.readLine()) != null) {
+                    try(BufferedReader bufferReader = new BufferedReader(reader)) {
+                        bufferReader.readLine();
+                        String linha;
 
-                    int count = 0;
-                    Estabelecimento estabelecimento = new Estabelecimento();
-                    StringTokenizer linhaTokenizada = new StringTokenizer(linha, DELIMITADOR, true);
+                        while ((linha = bufferReader.readLine()) != null) {
 
-                    tratarLinha(count, estabelecimento, linhaTokenizada);
+                            int count = 0;
+                            Estabelecimento estabelecimento = new Estabelecimento();
+                            StringTokenizer linhaTokenizada = new StringTokenizer(linha, DELIMITADOR, true);
 
-                    lista.add(estabelecimento);
-                }
+                            tratarLinha(count, estabelecimento, linhaTokenizada);
+
+                            lista.add(estabelecimento);
+                        }
+                    }
+
                     return lista;
+                }
             }
-        }
 
-        is.closeEntry();
-        is.close();
+            is.closeEntry();
+            is.close();
 
-        return lista;
+            return lista;
 
         } catch (IOException e) {
             throw new IOException("Caminho inválido.");
@@ -69,31 +70,24 @@ public class CarregaArquivo {
     }
 
     private void tratarLinha(int count, Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
-        while (linhaSplit.hasMoreTokens() && count <= LONGITUDE) {
-            PreencheEstabelecimento(estabelecimento, linhaSplit, count);
-            System.out.println(count);
+        if (linhaSplit.hasMoreTokens()) {
+            PreencheEstabelecimento(estabelecimento, linhaSplit);
         }
     }
 
-    private void PreencheEstabelecimento(Estabelecimento estabelecimento, StringTokenizer linhaSplit, int index) {
-        switch (index) {
-            case CODIGO_ESTABELECIMENTO:
-                String codigo = pegarValor(linhaSplit, index);
-                estabelecimento.setCodigoEstabelecimento(codigo);
-                break;
-            case RAZAO_SOCIAL:
-                String razao = pegarValor(linhaSplit, index);
-                estabelecimento.setRazaoSocial(razao);
-                break;
-            case LATITUDE:
-                String latitude = pegarValor(linhaSplit, index - RAZAO_SOCIAL);
-                estabelecimento.setLatitude(latitude);
-                break;
-            case LONGITUDE:
-                String longitude = pegarValor(linhaSplit, index - LATITUDE);
-                estabelecimento.setLongitude(longitude);
-                break;
-        }
+    private void PreencheEstabelecimento(Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
+
+            String codigo = pegarValor(linhaSplit, CODIGO_ESTABELECIMENTO);
+            estabelecimento.setCodigoEstabelecimento(codigo);
+
+            String razao = pegarValor(linhaSplit, RAZAO_SOCIAL);
+            estabelecimento.setRazaoSocial(razao);
+
+            String latitude = pegarValor(linhaSplit, LATITUDE - RAZAO_SOCIAL);
+            estabelecimento.setLatitude(latitude);
+
+            String longitude = pegarValor(linhaSplit, LONGITUDE - LATITUDE);
+            estabelecimento.setLongitude(longitude);
     }
 
     private String pegarValor(StringTokenizer st, int indexToken) {
@@ -114,6 +108,6 @@ public class CarregaArquivo {
             value = null;
         else if (st.hasMoreTokens())
             st.nextToken();
-        return value;
+        return value.replace("\"", "");
     }
 }

@@ -12,17 +12,22 @@ import java.util.List;
  */
 public class Aplicacao {
     private static final String caminhoPadrao = "ftp://ftp.datasus.gov.br/cnes/BASE_DE_DADOS_CNES_201809.ZIP";
+    private static final String NOME_JSON_PADRAO = "estabelecimentos";
     public static void main(String[] args) throws IOException {
 
         String caminhoArquivo = args.length > 0
                 ? args[0]
                 : caminhoPadrao;
 
+        String nomeJson = args.length > 1
+                ? args[1]
+                : NOME_JSON_PADRAO;
+
         CarregaArquivo dado = new CarregaArquivo();
         List<Estabelecimento> lista = dado.pegarLeitor(caminhoArquivo);
         Gson gson = new Gson();
 
-        try (Writer writer = new FileWriter("estabelecimentos.json")) {
+        try (Writer writer = new FileWriter(nomeJson.concat(".json"))) {
             gson.toJson(lista, writer);
         }
 
