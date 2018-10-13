@@ -23,13 +23,17 @@ public class Aplicacao {
                 ? args[1]
                 : NOME_JSON_PADRAO;
 
-        CarregaArquivo dado = new CarregaArquivo();
-        List<Estabelecimento> lista = dado.pegarLeitor(caminhoArquivo);
+        ProcessadorDeArquivo processador = new ProcessadorDeArquivo();
+        List<Estabelecimento> lista = processador.obtenhaListaDeEstabelecimentos(caminhoArquivo);
+
+        gereArquivoJson(nomeJson, lista);
+    }
+
+    private static void gereArquivoJson(String nomeJson, List<Estabelecimento> lista) throws IOException {
         Gson gson = new Gson();
 
         try (Writer writer = new FileWriter(nomeJson.concat(".json"))) {
             gson.toJson(lista, writer);
         }
-
     }
 }

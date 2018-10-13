@@ -9,9 +9,9 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 /**
- * Created by aluno on 01/10/18.
+ * Created by Saulo Calixto.
  */
-public class CarregaArquivo {
+public class ProcessadorDeArquivo {
 
     private final String DELIMITADOR = ";";
     private final int CODIGO_ESTABELECIMENTO = 0;
@@ -24,8 +24,9 @@ public class CarregaArquivo {
      * @throws IOException Se houver exceção ao ler o arquivo.
      * @return Leitor de arquivos.
      */
-    public List<Estabelecimento> pegarLeitor(String caminhoArquivo)
+    public List<Estabelecimento> obtenhaListaDeEstabelecimentos(String caminhoArquivo)
             throws IOException {
+
         try(ZipInputStream is = new ZipInputStream(new URL(caminhoArquivo).openConnection().getInputStream())) {
 
             List<Estabelecimento> lista = new ArrayList();
@@ -37,23 +38,7 @@ public class CarregaArquivo {
 
                 if(fileName.startsWith("tbEstabelecimento")) {
 
-                    InputStreamReader reader = new InputStreamReader(is);
-
-                    try(BufferedReader bufferReader = new BufferedReader(reader)) {
-                        bufferReader.readLine();
-                        String linha;
-
-                        while ((linha = bufferReader.readLine()) != null) {
-
-                            int count = 0;
-                            Estabelecimento estabelecimento = new Estabelecimento();
-                            StringTokenizer linhaTokenizada = new StringTokenizer(linha, DELIMITADOR, true);
-
-                            tratarLinha(count, estabelecimento, linhaTokenizada);
-
-                            lista.add(estabelecimento);
-                        }
-                    }
+                    processeArquivoCsv(is, lista);
 
                     return lista;
                 }
@@ -65,34 +50,63 @@ public class CarregaArquivo {
             return lista;
 
         } catch (IOException e) {
-            throw new IOException("Caminho inválido.");
+            throw new IOException("Ocorreu um erro ao ler o arquivo: " + e.getMessage());
         }
     }
 
-    private void tratarLinha(int count, Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
+    private void processeArquivoCsv(ZipInputStream is, List<Estabelecimento> lista) throws IOException {
+        InputStreamReader reader = new InputStreamReader(is);
+
+        try(BufferedReader bufferReader = new BufferedReader(reader)) {
+
+            bufferReader.readLine();
+
+            leiaLinha(lista, bufferReader);
+
+        } catch(IOException e) {
+            throw new IOException("Ocorreu um erro ao ler o arquivo csv: " + e.getMessage());
+        }
+    }
+
+    private void leiaLinha(List<Estabelecimento> lista, BufferedReader bufferReader) throws IOException {
+        String linha;
+        while ((linha = bufferReader.readLine()) != null) {
+
+            int count = 0;
+            Estabelecimento estabelecimento = new Estabelecimento();
+            StringTokenizer linhaTokenizada = new StringTokenizer(linha, DELIMITADOR, true);
+
+            processeLinha(count, estabelecimento, linhaTokenizada);
+
+            lista.add(estabelecimento);
+        }
+    }
+
+    private void processeLinha(int count, Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
         if (linhaSplit.hasMoreTokens()) {
-            PreencheEstabelecimento(estabelecimento, linhaSplit);
+            preenchaEstabelecimento(estabelecimento, linhaSplit);
         }
     }
 
-    private void PreencheEstabelecimento(Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
+    private void preenchaEstabelecimento(Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
 
-            String codigo = pegarValor(linhaSplit, CODIGO_ESTABELECIMENTO);
+            String codigo = pegueValor(linhaSplit, CODIGO_ESTABELECIMENTO);
             estabelecimento.setCodigoEstabelecimento(codigo);
 
-            String razao = pegarValor(linhaSplit, RAZAO_SOCIAL);
+            String razao = pegueValor(linhaSplit, RAZAO_SOCIAL);
             estabelecimento.setRazaoSocial(razao);
 
-            String latitude = pegarValor(linhaSplit, LATITUDE - RAZAO_SOCIAL);
+            String latitude = pegueValor(linhaSplit, LATITUDE - RAZAO_SOCIAL);
             estabelecimento.setLatitude(latitude);
 
-            String longitude = pegarValor(linhaSplit, LONGITUDE - LATITUDE);
+            String longitude = pegueValor(linhaSplit, LONGITUDE - LATITUDE);
             estabelecimento.setLongitude(longitude);
     }
 
-    private String pegarValor(StringTokenizer st, int indexToken) {
+    private String pegueValor(StringTokenizer st, int indexToken) {
 
         String value = "";
+
         while(indexToken > 0) {
             value = st.nextToken();
             if(!DELIMITADOR.equals(value)) {
@@ -108,6 +122,7 @@ public class CarregaArquivo {
             value = null;
         else if (st.hasMoreTokens())
             st.nextToken();
+
         return value.replace("\"", "");
     }
 }
