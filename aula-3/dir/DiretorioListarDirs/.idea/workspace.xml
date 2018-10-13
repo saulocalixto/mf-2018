@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../../codigo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../codigo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../codigo/src/main/java/com/github/saulocalixto/codigo/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../codigo/src/main/java/com/github/saulocalixto/codigo/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../codigo/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../codigo/src/test/java/com/github/saulocalixto/codigo/TestaContaLinhas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,7 +19,7 @@
     <session id="1860136623">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -60,7 +61,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="504">
               <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -259,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537729980926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537730021305" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -481,7 +482,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1530" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752022" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -493,7 +493,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4334239" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4334239" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39945653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -572,7 +572,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/saulocalixto/dir/DiretorioListarDirs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="504">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />

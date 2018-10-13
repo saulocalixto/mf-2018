@@ -1,5 +1,3 @@
-package br.edu.ifrn.calculadora;
-
 import java.io.IOException;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
