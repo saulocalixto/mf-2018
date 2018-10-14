@@ -34,6 +34,8 @@ public class Aplicacao {
 
         try (Writer writer = new FileWriter(nomeJson.concat(".json"))) {
             gson.toJson(lista, writer);
+        } catch(IOException e) {
+            throw new IOException("Ocorreu um erro ao gravar o arquivo json: " + e.getMessage());
         }
     }
 }

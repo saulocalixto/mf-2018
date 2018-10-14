@@ -14,7 +14,7 @@ import java.util.zip.ZipInputStream;
 public class ProcessadorDeArquivo {
 
     private final String DELIMITADOR = ";";
-    private final int CODIGO_ESTABELECIMENTO = 0;
+    private final int CODIGO_ESTABELECIMENTO = 1;
     private final int RAZAO_SOCIAL = 5;
     private final int LATITUDE = 39;
     private final int LONGITUDE = 40;
@@ -89,11 +89,11 @@ public class ProcessadorDeArquivo {
     }
 
     private void preenchaEstabelecimento(Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
-
+            linhaSplit.nextToken();
             String codigo = pegueValor(linhaSplit, CODIGO_ESTABELECIMENTO);
             estabelecimento.setCodigoEstabelecimento(codigo);
 
-            String razao = pegueValor(linhaSplit, RAZAO_SOCIAL);
+            String razao = pegueValor(linhaSplit, RAZAO_SOCIAL - CODIGO_ESTABELECIMENTO);
             estabelecimento.setRazaoSocial(razao);
 
             String latitude = pegueValor(linhaSplit, LATITUDE - RAZAO_SOCIAL);
