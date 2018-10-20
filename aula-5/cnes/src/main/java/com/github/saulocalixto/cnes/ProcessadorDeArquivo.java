@@ -72,20 +72,18 @@ public class ProcessadorDeArquivo {
         String linha;
         while ((linha = bufferReader.readLine()) != null) {
 
-            int count = 0;
-            Estabelecimento estabelecimento = new Estabelecimento();
             StringTokenizer linhaTokenizada = new StringTokenizer(linha, DELIMITADOR, true);
 
-            processeLinha(count, estabelecimento, linhaTokenizada);
-
-            lista.add(estabelecimento);
+            lista.add(retorneEstabelecimento(linhaTokenizada));
         }
     }
 
-    private void processeLinha(int count, Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
+    private Estabelecimento retorneEstabelecimento(StringTokenizer linhaSplit) {
+        Estabelecimento estabelecimento = new Estabelecimento();
         if (linhaSplit.hasMoreTokens()) {
             preenchaEstabelecimento(estabelecimento, linhaSplit);
         }
+        return estabelecimento;
     }
 
     private void preenchaEstabelecimento(Estabelecimento estabelecimento, StringTokenizer linhaSplit) {
@@ -114,14 +112,13 @@ public class ProcessadorDeArquivo {
             }
         }
 
-        if(value == "") {
+        if(value.isEmpty()) {
             value = st.nextToken();
         }
 
-        if (DELIMITADOR.equals(value))
-            value = null;
-        else if (st.hasMoreTokens())
+        if (st.hasMoreTokens()) {
             st.nextToken();
+        }
 
         return value.replace("\"", "");
     }
