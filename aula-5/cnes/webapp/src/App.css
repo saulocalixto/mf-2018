@@ -2,9 +2,24 @@
   padding: 10px 10px;
 }
 
+.gridContainer {
+  display: inline-block
+}
+
+.tabela {
+  float: left;
+}
+
 .tg {
   border-collapse: collapse;
   table-layout: fixed;
+  display: table;
+}
+
+.Mapa {
+  float: right;
+  padding-left: 20px;
+  padding-top: 47px;
 }
 
 .tg thead {

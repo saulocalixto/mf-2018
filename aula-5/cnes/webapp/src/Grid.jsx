@@ -1,57 +1,69 @@
 import React, { Component } from 'react';
 import './App.css';
 import estabelecimentos from './estabelecimentos.json'
-import "react-table/react-table.css";
 import Map from './GMap'
+import { Input, Label } from 'semantic-ui-react'
 
 class Grid extends Component {
 
   state = {
     index: 10,
     filtro: "",
-    estabelecimentosParciais: [],
-    local: {lat: 0, lng: 0},
+    local: { lat: 0, lng: 0 },
   };
 
-  componentDidMount = () => {
-    this.setState({ estabelecimentosParciais: estabelecimentos.slice(0, 10), });
-  }
 
   handleScroll = (e) => {
     let bottom = e.target.scrollHeight - e.target.scrollTop === e.target.clientHeight;
-      if (bottom) {
-        this.setState({ index: this.state.index + 10, });
-      }
+    if (bottom) {
+      this.setState({ index: this.state.index + 10, });
+    }
+  };
+
+  filtro = (e) => {
+    this.setState({ filtro: e.target.value.toUpperCase() });
   };
 
   render() {
+    let renderiza = this.state.filtro !== ""
+      ? estabelecimentos.filter(x => x.codigoEstabelecimento.startsWith(this.state.filtro) || x.razaoSocial.startsWith(this.state.filtro)).slice(0, this.state.index)
+      : estabelecimentos.slice(0, this.state.index)
     return (
-      <div style={{width: '100%', height: '400px'}}>
-        <table className="tg">
-          <thead>
-            <tr>
-              <th>CNES</th>
-              <th>NOME</th>
-            </tr>
-          </thead>
-          <tbody onScroll={this.handleScroll}>
-            {
-              estabelecimentos.slice(0, this.state.index).map(estabelecimento => (
-                <tr 
-                  key={estabelecimento.codigoEstabelecimento}
-                  onClick={() => this.setState({ local: {lat: estabelecimento.latitude, lng: estabelecimento.longitude} })}>
-                  <td>{estabelecimento.codigoEstabelecimento}</td>
-                  <td>{estabelecimento.razaoSocial}</td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table>{
-          this.state.local.lat && this.state.local.lng ? 
-          (<Map local={this.state.local} style={{padding: 10}}/>)
-          : <div>Não foi informada uma latitude e longitude válidos!</div>
-        }
-        
+      <div className='gridContainer'>
+        <div className='tabela'>
+          <Input style={{ paddingBottom: 10 }} placeholder='Search...' onKeyUp={this.filtro} />
+          <table className="tg">
+            <thead>
+              <tr>
+                <th>CNES</th>
+                <th>RAZÃO SOCIAL</th>
+              </tr>
+            </thead>
+            <tbody onScroll={this.handleScroll}>
+              {
+                renderiza.map(estabelecimento => (
+                  <tr
+                    key={estabelecimento.codigoEstabelecimento}
+                    onClick={() => this.setState({ local: { lat: estabelecimento.latitude, lng: estabelecimento.longitude } })}>
+                    <td>{estabelecimento.codigoEstabelecimento}</td>
+                    <td>{estabelecimento.razaoSocial}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </div>
+        <div className='Mapa'>
+          {
+            this.state.local.lat && this.state.local.lng
+              ? (<Map local={this.state.local} />)
+              : (
+                <Label color='red' key='Alerta' size='big'>
+                  Não foram informados dados válidos para a localização!
+                </Label>
+              )
+          }
+        </div>
       </div>
     );
   }

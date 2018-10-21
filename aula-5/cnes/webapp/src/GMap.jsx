@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 const style = {
   width: '50%',
@@ -18,11 +18,17 @@ class GMap extends Component {
             <Map
               google={this.props.google}
               style={style}
+              defaultCenter={
+                { 
+                  lat: this.props.local.lat,
+                  lng: this.props.local.lng 
+                }
+              }
               center={{
                 lat: this.props.local.lat,
                 lng: this.props.local.lng
               }}
-              zoom={70}
+              zoom={20}
             >
               <Marker onClick={this.onMarkerClick}
                 name={'Current location'} 
