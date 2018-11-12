@@ -8,17 +8,17 @@ public class ComunicacaoDto {
     /**
      * Representa o indivíduo.
      */
-    private String individuo;
+    private IndividuoDto individuo;
 
     /**
      * Representa o meio.
      */
-    private int meio;
+    private MeioDto meio;
 
     /**
      * Representa a preferência.
      */
-    private String preferencia;
+    private PreferenciaDto preferencia;
 
     /**
      * Representa o detalhe.
@@ -28,29 +28,29 @@ public class ComunicacaoDto {
     /**
      * Representa o uso.
      */
-    private int uso;
+    private UsoDto uso;
 
-    public String getIndividuo() {
+    public IndividuoDto getIndividuo() {
         return individuo;
     }
 
-    public void setIndividuo(String individuo) {
+    public void setIndividuo(IndividuoDto individuo) {
         this.individuo = individuo;
     }
 
-    public int getMeio() {
+    public MeioDto getMeio() {
         return meio;
     }
 
-    public void setMeio(int meio) {
+    public void setMeio(MeioDto meio) {
         this.meio = meio;
     }
 
-    public String getPreferencia() {
+    public PreferenciaDto getPreferencia() {
         return preferencia;
     }
 
-    public void setPreferencia(String preferencia) {
+    public void setPreferencia(PreferenciaDto preferencia) {
         this.preferencia = preferencia;
     }
 
@@ -62,11 +62,11 @@ public class ComunicacaoDto {
         this.detalhe = detalhe;
     }
 
-    public int getUso() {
+    public UsoDto getUso() {
         return uso;
     }
 
-    public void setUso(int uso) {
+    public void setUso(UsoDto uso) {
         this.uso = uso;
     }
 }
