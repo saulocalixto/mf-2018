@@ -1,0 +1,236 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "individuo": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    "datadeNascimento": {
+      "type": "string"
+    },
+    "nascimentoAcuracia": {
+      "type": "string"
+    },
+    "nascimentoSegmento": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "nascimentoPluralidade": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "nascimentoOrdem": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "obito": {
+      "type": "string"
+    },
+    "obitoAcuracia": {
+      "type": "string"
+    },
+    "obitoFonte": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "sexo": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "alternativo": {
+          "type": "string"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "alternativo",
+        "descricao"
+      ]
+    },
+    "mae": {
+      "type": "string"
+    },
+    "pai": {
+      "type": "string"
+    },
+    "situacaoFamiliar": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "raca": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "comentario": {
+      "type": "string"
+    },
+    "nacionalidade": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "municipio": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string"
+        },
+        "estado": {
+          "type": "string"
+        },
+        "municipio": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "estado",
+        "municipio"
+      ]
+    },
+    "estado": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string"
+        },
+        "nome": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "nome"
+      ]
+    },
+    "pais": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "nome": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "nome"
+      ]
+    },
+    "dataDeEntradaPais": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "individuo",
+    "datadeNascimento",
+    "nascimentoAcuracia",
+    "nascimentoSegmento",
+    "nascimentoPluralidade",
+    "nascimentoOrdem",
+    "obito",
+    "obitoAcuracia",
+    "obitoFonte",
+    "sexo",
+    "mae",
+    "pai",
+    "situacaoFamiliar",
+    "raca",
+    "comentario",
+    "nacionalidade",
+    "municipio",
+    "estado",
+    "pais",
+    "dataDeEntradaPais"
+  ]
+}

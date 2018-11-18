@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "individuo": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    "meio": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "alternativo": {
+          "type": "string"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "alternativo",
+        "descricao"
+      ]
+    },
+    "preferencia": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "detalhe": {
+      "type": "string"
+    },
+    "uso": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "alternativo": {
+          "type": "string"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "alternativo",
+        "descricao"
+      ]
+    }
+  },
+  "required": [
+    "individuo",
+    "meio",
+    "preferencia",
+    "detalhe",
+    "uso"
+  ]
+}

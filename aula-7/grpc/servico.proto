@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message Identificador {
+  required string id = 1;
+  required string idIndividuo = 2;
+  required string designacao = 3;
+  required Int32 codigoArea = 4;
+  required string emissor = 5;
+  required TimeStamp data = 6;
+  message Tipo {
+      required string codigo = 1;
+      require string descricao = 2;
+    }
+
+  message Certidao {
+    required Int32 codigo = 1;
+    require string descricao = 2;
+  }
+}

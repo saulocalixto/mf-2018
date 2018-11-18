@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "endereco": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "individuo": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        },
+        "bairro": {
+          "type": "string"
+        },
+        "distrito": {
+          "type": "string"
+        },
+        "municipio": {
+          "type": "object",
+          "properties": {
+            "codigo": {
+              "type": "string"
+            },
+            "estado": {
+              "type": "string"
+            },
+            "municipio": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "codigo",
+            "estado",
+            "municipio"
+          ]
+        },
+        "estado": {
+          "type": "object",
+          "properties": {
+            "codigo": {
+              "type": "string"
+            },
+            "nome": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "codigo",
+            "nome"
+          ]
+        },
+        "cep": {
+          "type": "string"
+        },
+        "caixapostal": {
+          "type": "string"
+        },
+        "pais": {
+          "type": "object",
+          "properties": {
+            "codigo": {
+              "type": "integer"
+            },
+            "nome": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "codigo",
+            "nome"
+          ]
+        },
+        "tipo": {
+          "type": "object",
+          "properties": {
+            "codigo": {
+              "type": "integer"
+            },
+            "descricao": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "codigo",
+            "descricao"
+          ]
+        },
+        "dataInicial": {
+          "type": "string"
+        },
+        "dataFinal": {
+          "type": "string"
+        },
+        "dataFinalAcuracia": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "individuo",
+        "bairro",
+        "distrito",
+        "municipio",
+        "estado",
+        "cep",
+        "caixapostal",
+        "pais",
+        "tipo",
+        "dataInicial",
+        "dataFinal",
+        "dataFinalAcuracia"
+      ]
+    },
+    "linha": {
+      "type": "string"
+    },
+    "ordem": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "endereco",
+    "linha",
+    "ordem"
+  ]
+}

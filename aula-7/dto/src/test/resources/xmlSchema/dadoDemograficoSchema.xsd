@@ -1,0 +1,113 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="DadoDemografico">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="comentario"/>
+                <xs:element type="xs:dateTime" name="dataDeEntradaPais"/>
+                <xs:element type="xs:dateTime" name="datadeNascimento"/>
+                <xs:element name="estado">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:short" name="codigo"/>
+                            <xs:element type="xs:string" name="nome"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="individuo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="id"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="mae"/>
+                <xs:element name="municipio">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:short" name="codigo"/>
+                            <xs:element type="xs:string" name="estado"/>
+                            <xs:element type="xs:string" name="municipio"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="nacionalidade">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="codigo"/>
+                            <xs:element type="xs:string" name="descricao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:dateTime" name="nascimentoAcuracia"/>
+                <xs:element name="nascimentoOrdem">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="codigo"/>
+                            <xs:element type="xs:string" name="descricao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="nascimentoPluralidade">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="codigo"/>
+                            <xs:element type="xs:string" name="descricao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="nascimentoSegmento">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="codigo"/>
+                            <xs:element type="xs:string" name="descricao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:dateTime" name="obito"/>
+                <xs:element type="xs:string" name="obitoAcuracia"/>
+                <xs:element name="obitoFonte">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="codigo"/>
+                            <xs:element type="xs:string" name="descricao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="pai"/>
+                <xs:element name="pais">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:short" name="codigo"/>
+                            <xs:element type="xs:string" name="nome"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="raca">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="codigo"/>
+                            <xs:element type="xs:string" name="descricao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sexo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="alternativo"/>
+                            <xs:element type="xs:byte" name="codigo"/>
+                            <xs:element type="xs:string" name="descricao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="situacaoFamiliar">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="codigo"/>
+                            <xs:element type="xs:string" name="descricao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

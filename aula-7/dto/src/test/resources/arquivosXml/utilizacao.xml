@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Utilizacao>
+    <dataFinal>2018-11-18T14:25:37.200-02:00</dataFinal>
+    <dataInicio>2018-11-18T14:25:37.200-02:00</dataInicio>
+    <identificador>
+        <area>100</area>
+        <certidaoTipo>
+            <codigo>100</codigo>
+            <descricao>descricao</descricao>
+        </certidaoTipo>
+        <data>2018-11-18T14:25:37.203-02:00</data>
+        <designacao>designacao</designacao>
+        <emissor>emissor</emissor>
+        <id>6234452365265sd65fa6556</id>
+        <individuo>
+            <id>0239skdlfj2029</id>
+        </individuo>
+        <tipo>
+            <codigo>100</codigo>
+            <descricao>descricao</descricao>
+        </tipo>
+    </identificador>
+    <nome>
+        <id>243645sda</id>
+        <individuo>
+            <id>0239skdlfj2029</id>
+        </individuo>
+        <nomes>Nomes</nomes>
+        <preferido>
+            <codigo>100</codigo>
+            <descricao>descricao</descricao>
+        </preferido>
+        <sobrenomes>sobrenomes</sobrenomes>
+        <sufixos>sufixos</sufixos>
+        <titulos>titulos</titulos>
+        <usoCondicional>
+            <codigo>100</codigo>
+            <descricao>descricao</descricao>
+        </usoCondicional>
+    </nome>
+    <uso>
+        <alternativo>alternativa</alternativo>
+        <codigo>100</codigo>
+        <descricao>descricao</descricao>
+    </uso>
+</Utilizacao>

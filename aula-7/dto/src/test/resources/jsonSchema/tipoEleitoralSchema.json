@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "identificador": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "individuo": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ]
+        },
+        "designacao": {
+          "type": "string"
+        },
+        "area": {
+          "type": "integer"
+        },
+        "emissor": {
+          "type": "string"
+        },
+        "data": {
+          "type": "string"
+        },
+        "tipo": {
+          "type": "object",
+          "properties": {
+            "codigo": {
+              "type": "string"
+            },
+            "descricao": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "codigo",
+            "descricao"
+          ]
+        },
+        "certidaoTipo": {
+          "type": "object",
+          "properties": {
+            "codigo": {
+              "type": "integer"
+            },
+            "descricao": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "codigo",
+            "descricao"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "individuo",
+        "designacao",
+        "area",
+        "emissor",
+        "data",
+        "tipo",
+        "certidaoTipo"
+      ]
+    },
+    "zona": {
+      "type": "integer"
+    },
+    "sessao": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "identificador",
+    "zona",
+    "sessao"
+  ]
+}

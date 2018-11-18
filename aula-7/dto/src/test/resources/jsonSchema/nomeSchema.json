@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "individuo": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    "titulos": {
+      "type": "string"
+    },
+    "nomes": {
+      "type": "string"
+    },
+    "sobrenomes": {
+      "type": "string"
+    },
+    "sufixos": {
+      "type": "string"
+    },
+    "preferido": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    },
+    "usoCondicional": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "integer"
+        },
+        "descricao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "descricao"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "individuo",
+    "titulos",
+    "nomes",
+    "sobrenomes",
+    "sufixos",
+    "preferido",
+    "usoCondicional"
+  ]
+}

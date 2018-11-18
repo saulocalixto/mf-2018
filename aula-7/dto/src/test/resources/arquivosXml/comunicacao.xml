@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Comunicado>
+    <detalhe>detalhes</detalhe>
+    <individuo>
+        <id>0239skdlfj2029</id>
+    </individuo>
+    <meio>
+        <alternativo>alternativa</alternativo>
+        <codigo>100</codigo>
+        <descricao>descricao</descricao>
+    </meio>
+    <preferencia>
+        <codigo>100</codigo>
+        <descricao>descricao</descricao>
+    </preferencia>
+    <uso>
+        <alternativo>alternativa</alternativo>
+        <codigo>100</codigo>
+        <descricao>descricao</descricao>
+    </uso>
+</Comunicado>

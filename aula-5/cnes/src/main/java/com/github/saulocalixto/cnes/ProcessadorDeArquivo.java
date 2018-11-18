@@ -36,7 +36,7 @@ public class ProcessadorDeArquivo {
 
                 String fileName = arquivoCsvObtido.getName();
 
-                if(fileName.startsWith("tbEstabelecimento")) {
+                if(fileName.startsWith("10")) {
 
                     processeArquivoCsv(is, lista);
 

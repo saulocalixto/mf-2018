@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EnderecoLinha>
+    <endereco>
+        <bairro>Bairro</bairro>
+        <caixapostal>45665656</caixapostal>
+        <cep>74000000</cep>
+        <dataFinal>2018-11-18T14:15:35.170-02:00</dataFinal>
+        <dataFinalAcuracia>2018-11-18T14:15:35.170-02:00</dataFinalAcuracia>
+        <dataInicial>2018-11-18T14:15:35.170-02:00</dataInicial>
+        <distrito>Distrito</distrito>
+        <estado>
+            <codigo>562</codigo>
+            <nome>Goiás</nome>
+        </estado>
+        <id>654a65sd55</id>
+        <individuo>
+            <id>0239skdlfj2029</id>
+        </individuo>
+        <municipio>
+            <codigo>3571</codigo>
+            <estado>Goiás</estado>
+            <municipio>Goiânia</municipio>
+        </municipio>
+        <pais>
+            <codigo>500</codigo>
+            <nome>Brasil</nome>
+        </pais>
+        <tipo>
+            <codigo>100</codigo>
+            <descricao>descricao</descricao>
+        </tipo>
+    </endereco>
+    <linha>Linha</linha>
+    <ordem>5</ordem>
+</EnderecoLinha>

@@ -4,7 +4,7 @@ import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 const style = {
   width: '50%',
-  height: '50%'
+  height: '60%'
 }
 
 const LoadingContainer = (props) => (

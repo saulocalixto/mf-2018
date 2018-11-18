@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Nome>
+    <id>243645sda</id>
+    <individuo>
+        <id>0239skdlfj2029</id>
+    </individuo>
+    <nomes>Nomes</nomes>
+    <preferido>
+        <codigo>100</codigo>
+        <descricao>descricao</descricao>
+    </preferido>
+    <sobrenomes>sobrenomes</sobrenomes>
+    <sufixos>sufixos</sufixos>
+    <titulos>titulos</titulos>
+    <usoCondicional>
+        <codigo>100</codigo>
+        <descricao>descricao</descricao>
+    </usoCondicional>
+</Nome>
