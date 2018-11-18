@@ -120,6 +120,17 @@
 
     </dependencies>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <extensions>
             <extension>
@@ -134,8 +145,10 @@
                 <artifactId>protobuf-maven-plugin</artifactId>
                 <version>0.5.0</version>
                 <configuration>
+                    <!--suppress UnresolvedMavenProperty -->
                     <protocArtifact>com.google.protobuf:protoc:3.4.0:exe:${os.detected.classifier}</protocArtifact>
                     <pluginId>grpc-java</pluginId>
+                    <!--suppress UnresolvedMavenProperty -->
                     <pluginArtifact>io.grpc:protoc-gen-grpc-java:1.7.0:exe:${os.detected.classifier}</pluginArtifact>
                 </configuration>
                 <executions>
@@ -149,17 +162,6 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
 
     <!-- mvn site (gera relatório em Project Report -->
     <!-- reporting está relacionado à fase 'site'   -->
@@ -218,19 +220,16 @@
                         <ruleset>/category/java/security.xml</ruleset>
                     </rulesets>
                 </configuration>
-            </plugin>
 
-            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jdepend-maven-plugin</artifactId>
                 <version>2.0</version>
-            </plugin>
 
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jxr-plugin</artifactId>
                 <version>2.3</version>
             </plugin>
+
 
             <!-- mvn checkstyle:checkstyle -->
             <!-- mvn checkstyle:check      -->
@@ -309,6 +308,7 @@
                             </execution>
                         </executions>
                         <configuration>
+                            <!--suppress UnresolvedMavenProperty -->
                             <apiToken>${snyk.token}</apiToken>
                             <failOnSeverity>low</failOnSeverity>
                             <org>kyriosdata</org>

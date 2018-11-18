@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option java_package = "com.github.saulocalixto.dto.grpc";
+option java_outer_classname = "ServiceIndividuo";
+
+message Identificador {
+	string id = 1;
+	string designacao = 3;
+	int32 area = 4;
+	string emissor = 5;
+	google.protobuf.Timestamp data = 6;
+	CodigoDescricaoString tipo = 7;
+	CodigoDescricao certidaoTipo = 8;
+}
+
+message Individuo {
+	Identificador identificador = 1;
+}
+
+message CodigoDescricao {
+	int32 codigo = 1;
+	string descricao = 2;
+}
+
+message CodigoDescricaoString {
+	string codigo = 1;
+	string descricao = 2;
+}
+
+message Resposta { 
+  string mensagem = 1;
+}
+
+service MostreIndividuo {
+  // Define a RPC operation
+  rpc imprimeIndividuo(Individuo) returns (Resposta) {}
+}
