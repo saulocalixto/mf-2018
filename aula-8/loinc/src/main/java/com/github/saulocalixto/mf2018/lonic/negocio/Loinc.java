@@ -7,7 +7,6 @@ public class Loinc {
     private String loincNum;
     private String shortname;
     private String longName;
-    private String submittedUnits;
 
     public String getLoincNum() {
         return loincNum;
@@ -21,10 +20,6 @@ public class Loinc {
         return longName;
     }
 
-    public String getSubmittedUnits() {
-        return submittedUnits;
-    }
-
     public void setLoincNum(String loincNum) {
         this.loincNum = loincNum;
     }
@@ -35,9 +30,5 @@ public class Loinc {
 
     public void setLongName(String longName) {
         this.longName = longName;
-    }
-
-    public void setSubmittedUnits(String submittedUnits) {
-        this.submittedUnits = submittedUnits;
     }
 }
