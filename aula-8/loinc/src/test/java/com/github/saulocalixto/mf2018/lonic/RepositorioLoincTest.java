@@ -1,6 +1,6 @@
-package com.github.saulocalixto.mf2018.lonic.bancoDeDados;
+package com.github.saulocalixto.mf2018.lonic;
 
-import com.github.saulocalixto.mf2018.lonic.Configuracao;
+import com.github.saulocalixto.mf2018.lonic.bancoDeDados.RepositorioLoinc;
 import com.github.saulocalixto.mf2018.lonic.negocio.Loinc;
 import org.junit.Assert;
 import org.junit.Before;
@@ -19,10 +19,15 @@ public class RepositorioLoincTest {
     @Autowired
     private RepositorioLoinc repositorio;
 
+    private Boolean tabelaExiste = false;
+
     @Before
     public void masPrimeiro() {
-        repositorio.crieTabela();
-        repositorio.populeTabela();
+        if(!tabelaExiste) {
+            repositorio.crieTabela();
+            repositorio.populeTabela();
+            tabelaExiste = true;
+        }
     }
     
     @Test

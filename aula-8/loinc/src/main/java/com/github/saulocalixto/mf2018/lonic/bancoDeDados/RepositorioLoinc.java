@@ -72,12 +72,12 @@ public class RepositorioLoinc {
 
         List<Loinc> lista = jdbcTemplate.query(
                 sql, new Object[] { condicao },
-                (rs, rowNum) -> PreencheLoinc(loinc, rs));
+                (rs, rowNum) -> preencheLoinc(loinc, rs));
 
         return lista;
     }
 
-    private Loinc PreencheLoinc(Loinc loinc, ResultSet rs) throws SQLException {
+    private Loinc preencheLoinc(Loinc loinc, ResultSet rs) throws SQLException {
         loinc.setLoincNum(rs.getString("LOINC_NUM"));
         loinc.setLongName(rs.getString("LONG_COMMON_NAME"));
         loinc.setShortname(rs.getString("SHORTNAME"));
